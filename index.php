@@ -16,12 +16,25 @@
         <h1>Mój blog
             <button class="newbut">Dodaj nowy wpis</button>
         </h1>
-            <!--
-                button otwiera formularz dodawania wpisów w okienku
-            -->
+
+<h2>Wstawianie </h2>
+
+<form action="index.php">
+  <label for="fname">Nazwa Bloga:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="fname">Treść Bloga:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="submit" value="Przeslij" >
+</form> 
+
+<p>Jezeli dodasz to wyswietlisz temat i Zawartość bloga</p>
+
+
+
     </div>
 
     <div class="main">
+        
 
         <div class="post">
             <?php include('blog_post.php'); ?>
