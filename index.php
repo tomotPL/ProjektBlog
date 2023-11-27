@@ -10,14 +10,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styl.css">
     <title>Mój Blog</title>
+    <script>
+        function confirmDel() {
+            var userConfirmed = confirm("Czy jesteś pewien, że chcesz usunąć ten wpis?");
+            if (userConfirmed) {
+                document.getElementById("delete").submit();
+            } else {
+                return false;
+            }
+        }
+        function displayInput() {
+            if (document.getElementById('insertform').style.display=='none') {
+                document.getElementById('insertform').style.display='block';
+            } else {
+                document.getElementById('insertform').style.display='none';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="header">
         <h1>Mój blog
-            <button class="newbut">Dodaj nowy wpis</button>
+            <button class="newbut" onclick="displayInput()">Dodaj nowy wpis</button>
         </h1>
-
-<h2>Wstawianie </h2>
+<div id="insertform" style="display: none;">
+   <h2>Wstawianie </h2>
 
 <form action="index.php">
   <label for="fname">Nazwa Bloga:</label><br>
@@ -25,9 +42,9 @@
   <label for="fname">Treść Bloga:</label><br>
   <input type="text" id="fname" name="fname" value=""><br>
   <input type="submit" value="Przeslij" >
-</form> 
-
-<p>Jezeli dodasz to wyswietlisz temat i Zawartość bloga</p>
+</form>  
+<!--TODO: Działający kod wstawiania-->
+</div>
 
 
 
@@ -38,7 +55,15 @@
 
         <div class="post">
             <?php include('blog_post.php'); ?>
-            <button class = "del">Usuń</button> <!--na pewno musi być z potwierdzeniem poprzez np. alert-->
+            <form id="delete" method="post" onsubmit="return confirmDel()">
+                <button class = "del" name="Delete">Usuń</button>
+            </form>
+            <?php 
+            if (isset($_POST['Delete'])) {
+                //TODO usuń wpis o id $currentPost
+            }
+            ?> 
+            
         </div>
         <?php       
             $newerPost = $currentPost + 1;
