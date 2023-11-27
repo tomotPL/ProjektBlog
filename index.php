@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <!--
-        Każdy wpis składa się z: 
-        - tytułu, 
-        - automatycznie wstawianej daty,
-        - treści. 
-        /--- tutaj jako bonus dałbym pole autora, i miejsce na plik (zdjęcie)
-        Wpisy powinny być przechowywane w bazie danych. 
-        Wymagane funkcje: 
-        - dodawanie wpisów, /--- może dodać edycję?
-        - kasowanie wpisów, 
-        - wyświetlanie wpisów po jednym z nawigacją (poprzedni, następny). 
+        TODO:
+        - dodawanie wpisów,
+        - kasowanie wpisów 
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
     <title>Mój Blog</title>
 </head>
 <body>
     <div class="header">
-        <h1>Mój blog</h1>
-        
-        <button>Dodaj nowy wpis</button>
+        <h1>Mój blog
+            <button class="newbut">Dodaj nowy wpis</button>
+        </h1>
             <!--
                 button otwiera formularz dodawania wpisów w okienku
             -->
     </div>
-    <div class="info">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque voluptatum illo fugit! Id necessitatibus nisi est nobis obcaecati possimus quasi, omnis unde non. Itaque repellendus vero ab ut earum?</p>
-    </div>
+
     <div class="main">
-        <!--
-            Tutaj kod PHP pokazujący post
-        -->
-        <button>Następny</button>
-        <button>Poprzedni</button>
-        <button>Usuń</button> <!--na pewno musi być z potwierdzeniem poprzez np. alert-->
-    </div>
+
+        <div class="post">
+            <?php include('blog_post.php'); ?>
+            <button class = "del">Usuń</button> <!--na pewno musi być z potwierdzeniem poprzez np. alert-->
+        </div>
+        <?php       
+            $newerPost = $currentPost + 1;
+            echo "<a class='navbut' href='index.php?id=$newerPost'>Nowszy wpis</a>";
+            $olderPost = max(1, $currentPost - 1);
+            echo "<a class='navbut' href='index.php?id=$olderPost'>Starszy wpis</a>";
+        ?>
+    </div>    
+    
+    
     <div class="footer">
+        <p>Mój blog, to blog technologiczny na którym każdy może dodać swój wpis!</p>
         <p>&copy; 2023 Jan Kowalski</p>
     </div>
 
