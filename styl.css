@@ -1,0 +1,98 @@
+body{
+    margin: auto;
+}
+
+.header{
+    background-color: blue;
+}
+
+.info{
+    background-color: aqua;
+}
+
+.main{
+    background-color: aqua;
+    text-align: center;
+}
+
+.xd{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.xd:hover {
+    background-color: #3e8e41
+}
+
+.xd:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.lol{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.lol:hover {
+    background-color: #710b71
+}
+
+.lol:active {
+    background-color: #710b71;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.dx{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.dx:hover {
+    background-color: #c80000
+}
+
+.dx:active {
+    background-color: #c80000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    clear: both;
+}

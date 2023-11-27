@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <!--
         Każdy wpis składa się z: 
@@ -15,6 +15,7 @@
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
     <title>Mój Blog</title>
 </head>
 <body>
@@ -33,9 +34,89 @@
         <!--
             Tutaj kod PHP pokazujący post
         -->
-        <button>Następny</button>
-        <button>Poprzedni</button>
-        <button>Usuń</button> <!--na pewno musi być z potwierdzeniem poprzez np. alert-->
+        Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+Spam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybórSpam – wiadomość zawierająca codzienną aktualizację reklamy, wirusów bądź trojanów. Spam, w przeciwieństwie do ważnej poczty w jeszcze ważniejsze sprawie, idzie błyskawicznie; gdyby Poczta Polska dostarczała spam, byłby on w grupie nielicznych przypadków, w których Poczta z Trąbką działałaby punktualnie. Zresztą Poczta Polska dostarcza czasami spam, ale są to tylko marne ulotki, najczęściej reklamujące Fundusze Ubezpieczeniowe, pizzę albo inne badziewie.
+Spam z serem
+Amerykański spam z serem ma wydłużony termin przydatności do spożycia
+Thisisspam
+Król Leonidas pozbywający się spamu
+Spampobyku
+W naszym sklepie z viagrą jest największy wybór
+
+
+
+        <button class = "xd">Następny</button>
+        <button class ="lol">Poprzedni</button>
+        <button class = "dx">Usuń</button> <!--na pewno musi być z potwierdzeniem poprzez np. alert-->
     </div>
     <div class="footer">
         <p>&copy; 2023 Jan Kowalski</p>
