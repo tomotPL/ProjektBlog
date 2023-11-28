@@ -13,15 +13,26 @@ h1, h2, h3, h4, h5, h6, p  {
 button:hover {
     cursor: pointer;
 }
+textarea {
+    border: 0;
+    border-bottom: rgb(24, 6, 88) solid 3px;
+    border-radius: 8px;
+    background-color: #EEE;
+    padding: 10px;
+}
 
 .header{
     background-color: rgb(24, 6, 88);
     color: white;
 }
 
-.newbut {
+#newbut {
     float: right;
-    color: black;
+    margin: 0;
+}
+
+.newbut {
+    margin: 5px;
     background-color: #3e8e41;
     border: 0;
     padding: 15px;
@@ -35,7 +46,7 @@ button:hover {
 .main{
     text-align: center;
 }
-.post {
+#post, #insertform {
     position: relative;
     max-width: 60%;
     margin: 40px auto;
@@ -44,7 +55,7 @@ button:hover {
     min-height: 30vh;
 }
 
-.post h2 {
+h2 {
     font-size: 300%;
     color:rgb(24, 6, 88);
 }

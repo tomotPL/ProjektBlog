@@ -13,6 +13,16 @@ if ($result->num_rows > 0) {
     echo "<h2>" . $row['title'] . "</h2>";
     echo "<p>" . $row['content'] . "</p>";
     echo "<p class='dateadded'>Wstawiono: " . $row['date_added'] . "</p>";
+    echo '<form id="delete" method="post" onsubmit="return confirmDel()"><button class = "del" name="Delete">Usuń</button></form>';
+    if (isset($_POST['Delete'])) {
+        $conn=mysqli_connect('localhost','root',null,'blog');
+        $sql='DELETE FROM posts WHERE id='.$currentPost;
+        if ($query=mysqli_query($conn, $sql)) {
+            echo("Usunięto wpis! Za chwilę strona się odświeży...");
+        }
+        unset($_POST['Delete']);
+        header("refresh:1;url=index.php");
+    }
 } else {
     echo "<p>Ten post nie istnieje, chyba że masz maszynę czasu :3</p>";
 }
